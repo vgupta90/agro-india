@@ -15,18 +15,23 @@ export default function AboutUs() {
                     <h6 className="text-primary text-uppercase">About Us</h6>
                     <h1 className="display-5">We Produce Organic Food For Your Family</h1>
                 </div>
-                <p className="mb-4">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet magna</p>
+                <p className="mb-4">Our commitment to organic farming is unwavering. We believe that by nurturing the earth and following sustainable agricultural practices, we can deliver food that not only tastes exceptional but is also good for your health and the environment.
+                
+                <br></br> <br></br>
+                We believe in the power of organic food to nourish your body and soul. Our products are rich in nutrients and essential vitamins, promoting overall well-being and a healthier lifestyle for your family.
+                
+                </p>
                 <div className="row gx-5 gy-4">
                     <div className="col-sm-6">
                         <i className="fa fa-seedling display-1 text-secondary"></i>
                         <h4>100% Organic</h4>
-                        <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+                        {/* <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p> */}
                     </div>
-                    <div className="col-sm-6">
+                    {/* <div className="col-sm-6">
                         <i className="fa fa-award display-1 text-secondary"></i>
                         <h4>Award Winning</h4>
-                        <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
-                    </div>
+                         <p className="mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p> 
+                    </div> */}
                 </div>
             </div>
         </div>

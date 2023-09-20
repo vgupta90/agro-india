@@ -46,7 +46,7 @@ const ProductCarousel = () => {
       </div>
     </div>
 
-    <ProductCart/>
+    <ProductCart/> 
        <Features />
        </>
 

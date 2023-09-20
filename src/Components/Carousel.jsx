@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Carousel = () => {
@@ -6,14 +6,24 @@ const Carousel = () => {
 
   const carouselData = [
     {
-      imageSrc: './img/carousel-1.jpg',
+      imageSrc: './img/capbann.jpeg',
       title: 'Organic Vegetables',
       caption: 'Organic Vegetables For Healthy Life',
     },
     {
-      imageSrc: './img/carousel-2.jpg',
-      title: 'Organic Fruits',
-      caption: 'Organic Fruits For Better Health',
+      imageSrc: './img/carousel-2.jpeg',
+      title: 'Organic Papaya',
+      caption: 'Papaya: Your Path to Healthy Living',
+    },
+    {
+      imageSrc: './img/mushroomFarm.jpeg',
+      title: 'Organic Mushroom',
+      caption: 'Organic Mushroom For Better Health',
+    },
+    {
+      imageSrc: './img/saffFarm.jpeg',
+      title: 'Saffron',
+      caption: 'Saffron: Spice for a Healthy Life',
     },
   ];
 
@@ -50,11 +60,16 @@ const Carousel = () => {
                 key={index}
                 className={`carousel-item ${index === activeSlide ? 'active' : ''}`}
               >
-                <img className="w-100" src={slide.imageSrc} alt={slide.title} />
+                <img
+                  className="w-100"
+                  src={slide.imageSrc}
+                  alt={slide.title}
+                  style={{ maxWidth: '100%', maxHeight: '450px' }} // Set maximum width and height
+                />
                 <div className="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
-                  <div className="text-start p-5" style={{ maxWidth: '900px' }}>
-                    <h3 className="text-white">{slide.title}</h3>
-                    <h1 className="display-1 text-white mb-md-4">{slide.caption}</h1>
+                  <div className="text-start p-4" style={{ maxWidth: '800px' }}>
+                    <h4 className="text-white">{slide.title}</h4>
+                    <h4 className="display-1 text-white mb-md-4">{slide.caption}</h4>
                     <Link to="/about" className="btn btn-primary py-md-3 px-md-5 me-3">
                       Explore
                     </Link>

@@ -5,7 +5,7 @@ export default function TopBar() {
   return (
     <div>
 
-<div className="container-fluid px-5 d-none d-lg-block">
+ <div className="container-fluid px-5 d-none d-lg-block">
         <div className="row gx-5 py-3 align-items-center">
             <div className="col-lg-3">
                 <div className="d-flex align-items-center justify-content-start">
@@ -29,7 +29,7 @@ export default function TopBar() {
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     
 
 

@@ -11,7 +11,7 @@ export default function Home() {
     <Carousel/> 
      <Banner/> 
        <AboutUs />
-      <Facts />
+      {/* <Facts /> */}
       <Features/>
       
     </>

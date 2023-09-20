@@ -8,7 +8,11 @@ const customModalStyles  = {
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
+    marginTop:'2%',
     transform: 'translate(-50%, -50%)',
+    maxWidth: '80%', // Set the maximum width for the modal content
+    maxHeight: '80%', // Set the maximum height for the modal content
+    overflow: 'auto', // Enable scrolling if content overflows the modal
   },
 };
 
@@ -65,8 +69,8 @@ const ProductModal = ({ isOpen, closeModal, product }) => {
         src={product.imgSrc}
         alt={product.title}
         style={{
-          maxWidth: '60%',
-          maxHeight: '60%', // Adjust the maximum height if needed
+          maxWidth: '40%',
+          maxHeight: '40%', // Adjust the maximum height if needed
           objectFit: 'contain', // Maintain image's aspect ratio
         }}
       />

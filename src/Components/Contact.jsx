@@ -49,15 +49,15 @@ export default function Contact() {
             <div className="col-lg-5">
                 <div className="bg-secondary h-100 p-5">
                     <h2 className="text-white mb-4">Get In Touch</h2>
-                    <div className="d-flex mb-4">
+                    {/* <div className="d-flex mb-4">
                         <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{width: '60px', height: '60px'}}>
                             <i className="bi bi-geo-alt fs-4 text-white"></i>
                         </div>
-                        <div className="ps-3">
+                      <div className="ps-3">
                             <h5 className="text-white">Our Office</h5>
                             <span className="text-white">123 Street, New York, USA</span>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> */}
                     <div className="d-flex mb-4">
                         <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center" style={{width: '60px', height: '60px'}}>
                             <i className="bi bi-envelope-open fs-4 text-white"></i>

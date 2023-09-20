@@ -36,10 +36,11 @@ export default function () {
 			<div className="row">
             <div className="col-lg-8">
 					<h2 className="text-center">Our Mission & Vision</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
-				</div>
+					<p>At Siddhvidhya, our mission is to lead the way in sustainable and organic agriculture, creating a positive impact on our planet and society. We are committed to producing wholesome, chemical-free food and promoting responsible land stewardship.</p>
+					<p>We strive to provide communities with access to nutritious, organic food that promotes well-being. Our mission is to contribute to healthier lifestyles and reduce the reliance on harmful chemicals in agriculture.</p>
+					<p>Our vision is a world where organic farming is the cornerstone of agriculture, benefiting both people and the planet.A world where our farms serve as vibrant ecosystems, supporting diverse wildlife, healthy soil, and clean water.</p>
+          <p>Our mission is to lead by example, cultivating a future where organic farming is the norm rather than the exception, and our vision is a world where the benefits of organic agriculture are realized by all, creating a healthier, more sustainable planet for generations to come.</p>
+      	</div>
 				<div className="col-lg-4">
 					<img className="img-fluid mt-auto mx-auto" src="./img/carousel-3.jpg" alt="" />
 				</div>
