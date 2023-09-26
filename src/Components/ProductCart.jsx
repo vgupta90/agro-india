@@ -24,6 +24,28 @@ export default function ProductCart() {
     setModalIsOpen(false);
   };
 
+  // Check the screen width to determine whether to apply top margin
+  const isSmallScreen = window.innerWidth < 768;
+
+  // Calculate the marginTop value based on the screen width
+  const modalMarginTop = isSmallScreen ? '50%' : 'auto';
+
+  // Set the modal styles
+  const modalStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      maxWidth: '80%',
+      maxHeight: '80%',
+      overflow: 'auto',
+      marginTop: modalMarginTop, // Apply margin based on screen width
+    },
+  };
+
   const products = [
     {
       category: 'Mushroom Farming',
@@ -107,36 +129,35 @@ export default function ProductCart() {
 
   return (
     <MDBContainer fluid className="my-5 text-center">
-  {products.map((category, index) => (
-    <div key={index}>
-      <div style={{ backgroundColor: '#f93', height:'40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <h3 className="mt-4 mb-3 text-left text-white" >
-          <strong>{category.category}</strong>
-        </h3>
-      </div>
-      <br></br>
-      <MDBRow>
-  {category.items.map((product, productIndex) => (
-    <MDBCol key={productIndex} md="6" lg="4" className="mb-4 service-item">
-      <MDBCard onClick={() => openModal(product)} className="product-card">
-        <MDBRipple rippleColor="light" rippleTag="div" className="bg-image rounded">
-          <MDBCardImage src={product.imgSrc} fluid className="w-100 product-image" /> {/* Add w-100 class */}
-        </MDBRipple>
-        <MDBCardBody className="product-card-body text-left">
-          <h4 className="display-8">{product.title}</h4>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
-  ))}
-</MDBRow>
-
-    </div>
-  ))}
-  {/* Render the modal */}
-  {selectedProduct && (
-    <ProductModal isOpen={modalIsOpen} closeModal={closeModal} product={selectedProduct} />
-  )}
-</MDBContainer>
-
+      {products.map((category, index) => (
+        <div key={index}>
+          <div style={{ backgroundColor: '#f93', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <h3 className="mt-4 mb-3 text-left text-white">
+              <strong>{category.category}</strong>
+            </h3>
+          </div>
+          <br />
+          <MDBRow>
+            {category.items.map((product, productIndex) => (
+              <MDBCol key={productIndex} md="6" lg="4" className="mb-4 service-item">
+                <MDBCard onClick={() => openModal(product)} className="product-card">
+                  <MDBRipple rippleColor="light" rippleTag="div" className="bg-image rounded">
+                    <MDBCardImage src={product.imgSrc} fluid className="w-100 product-image" /> {/* Add w-100 class */}
+                  </MDBRipple>
+                  <MDBCardBody className="product-card-body text-left">
+                    <h4 className="display-8">{product.title}</h4>
+                  </MDBCardBody>
+                </MDBCard>
+              </MDBCol>
+            ))}
+          </MDBRow>
+        </div>
+      ))}
+      {/* Render the modal */}
+      {selectedProduct && (
+        <ProductModal isOpen={modalIsOpen} closeModal={closeModal} product={selectedProduct} customStyles={modalStyles} />
+      )}
+    </MDBContainer>
   );
+
 }

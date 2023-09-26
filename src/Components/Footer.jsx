@@ -14,17 +14,16 @@ export default function Footer() {
                   <div className="d-flex mb-2">
                     <i className="bi bi-geo-alt text-white me-2"></i>
                     <p className="text-white mb-0">
-                      20 Madan Colony, Sadar Bazar, Narmdapuram Madhya Pradesh,
-                      India, 461001
+                      20 Madan Colony, Sadar Bazar, Narmdapuram (MP), 461001
                     </p>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-envelope-open text-white me-2"></i>
-                    <p className="text-white mb-0">info@example.com</p>
+                    <p className="text-white mb-0">support@siddhvidhya.com</p>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-telephone text-white me-2"></i>
-                    <p className="text-white mb-0">+012 345 67890</p>
+                    <p className="text-white mb-0">+919827378478</p>
                   </div>
                   <div className="d-flex mt-4">
                     <a
@@ -54,21 +53,21 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                  <h4 className="text-white mb-4">Registred Office</h4>
+                  <h4 className="text-white mb-4">Registered Office</h4>
                   <div className="d-flex mb-2">
                     <i className="bi bi-geo-alt text-white me-2"></i>
                     <p className="text-white mb-0">
-                      801/8F, Unitech Horizon, Sector Pi I & II, Greater Noida,
-                      Gautam Buddha Nagar, 201310
+                      801/8F, Unitech Horizon, Sector Pi I & II, Greater Noida, 
+                      201310
                     </p>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-envelope-open text-white me-2"></i>
-                    <p className="text-white mb-0">info@example.com</p>
+                    <p className="text-white mb-0">support@siddhvidhya.com</p>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-telephone text-white me-2"></i>
-                    <p className="text-white mb-0">+012 345 67890</p>
+                    <p className="text-white mb-0">+919958188688</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -76,46 +75,45 @@ export default function Footer() {
                   <div className="d-flex mb-2">
                     <i className="bi bi-geo-alt text-white me-2"></i>
                     <p className="text-white mb-0">
-                      Gram : Biora Post : Powarkheda Tahsil: Narmdapuram
-                      Distric: Narmdapuram Madhy Pradesh 461110
+                      Gram : Biora Post : Powarkheda District: Narmdapuram
+                      (MP), 461110
                     </p>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-envelope-open text-white me-2"></i>
-                    <p className="text-white mb-0">info@example.com</p>
+                    <p className="text-white mb-0">support@siddhvidhya.com</p>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-telephone text-white me-2"></i>
-                    <p className="text-white mb-0">+012 345 67890</p>
+                    <p className="text-white mb-0">+919827378478 </p>
                   </div>
                 </div>
-                
               </div>
             </div>
+
+
             <div className="col-lg-4 col-md-6 mt-lg-n5">
-              <div className="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-secondary p-5">
-              
-                  <h4 className="text-white mb-4">Quick Links</h4>
-                  <div className="d-flex flex-column justify-content-start">
-                    <Link to="/" className="text-white mb-2">
-                      <i className="bi bi-arrow-right text-white me-2"></i>Home
-                    </Link>
-                    <Link to="/about" className="text-white mb-2">
-                      <i className="bi bi-arrow-right text-white me-2"></i>About
-                      Us
-                    </Link>
-                    <Link to="/product" className="text-white mb-2">
-                      <i className="bi bi-arrow-right text-white me-2"></i>Our
-                      Products
-                    </Link>
-                    <Link to="/contact" className="text-white mb-2">
-                      <i className="bi bi-arrow-right text-white me-2"></i>
-                      Contact Us
-                    </Link>
-                  </div>
-              
-              </div>
-            </div> 
+  <div className="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-secondary p-5">
+    <h4 className="text-white mb-4">Quick Links</h4>
+    <div className="d-flex flex-column justify-content-start">
+      <Link to="/" className="text-white mb-2">
+        <i className="bi bi-arrow-right text-white me-2"></i>Home
+      </Link>
+      <Link to="/about" className="text-white mb-2">
+        <i className="bi bi-arrow-right text-white me-2"></i>About Us
+      </Link>
+      <Link to="/product" className="text-white mb-2">
+        <i className="bi bi-arrow-right text-white me-2"></i>Our Products
+      </Link>
+      <Link to="/contact" className="text-white mb-2">
+        <i className="bi bi-arrow-right text-white me-2"></i>Contact Us
+      </Link>
+    </div>
+  </div>
+</div>
+
+
+
           </div>
         </div>
       </div>

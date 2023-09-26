@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "Ajit Singh",
+    "role": "Chairman & Legal Counsel",
+    "bio": "He is one of the Best Legal Counsel in Civil and Criminal.\n\nHe is a very experienced and senior lawyer with a great reputation for various arbitration and litigation. His practice also encompasses Civil law, Criminal law, civil fraud, and tax.\n\nHe was also Government Pleader (GP), District Narmdapuram, Madhya Pradesh, between 2004 till 2010. He also served as Secretary & President of District Bar Association, Narmdapuram, Madhya Pradesh, and enrolled Member of MP Bar Counsel.",
+    "imageSrc": "./img/Ajit Singh.jpg",
+    "socialLinks": [
+      {
+        "url": "https://linkedin.com/janesmith",
+        "iconClass": "fa-linkedin",
+        "icon": "linkedin",
+        "iconPath": "M448 32H64a64 64 0 00-64 64v288a64 64 0 0064 64h71.63l-9.31 124.15a16 16 0 0015.67 17.85 14.31 14.31 0 001.05-.05l103.78-7a16 16 0 0014.3-11.31l29.46-118.01h62.75a64 64 0 0064-64V96a64 64 0 00-64-64z"
+      },
+      {
+        "url": "https://dribbble.com/janesmith",
+        "iconClass": "fa-dribbble",
+        "icon": "dribbble",
+        "iconPath": "M256 64c-97.05 0-176 78.95-176 176s78.95 176 176 176 176-78.95 176-176-78.95-176-176-176zm0 304c-57.35 0-104-46.65-104-104s46.65-104 104-104 104 46.65 104 104-46.65 104-104 104zm96-160h-32v-32h32v32z"
+      }
+    ]
+  },
+
+
+    {
+      "id": 2,
+      "name": "Vikram Singh",
+      "role": "Vice President & Head of Farming",
+      "bio": "Manage farm operations including livestock management, crop cultivation, fruit and vegetable production. Specializations: Crop Production\nPerform annual tasks to grow a wide variety of crops such as grains, oilseeds, sugar cane, cotton, fruits, and vegetables.\nExpert in Fish Cultures and received various awards from the Government of Madhya Pradesh for successfully cultivating various varieties of fishes.\nSupport students and faculties in successful fish culture.",
+      "imageSrc": "./img/Vikram Singh.jpeg",
+      "socialLinks": [
+        {
+          "url": "https://twitter.com/johndoe",
+          "iconClass": "fa-twitter",
+          "icon": "twitter",
+          "iconPath": "M464 128c0 75.08-61.92 136-136 136h-200c-75.08 0-136-61.92-136-136v-200c0-75.08 61.92-136 136-136h200c75.08 0 136 61.92 136 136v200z"
+        },
+        {
+          "url": "https://github.com/johndoe",
+          "iconClass": "fa-github",
+          "icon": "github",
+          "iconPath": "M352 32a32 32 0 00-32 32v224a32 32 0 0032 32h84.75l-117.37 117.36a32 32 0 0022.62 54.62h182.5a32 32 0 0022.62-54.62L295.25 320H380a32 32 0 0032-32V64a32 32 0 00-32-32zM143.17 226.34a16 16 0 01-22.63 0l-45.25-45.25a16 16 0 010-22.63l90.51-90.5a16 16 0 0122.63 0l45.25 45.25a16 16 0 010 22.63zM48 354.74a80.14 80.14 0 0155.78-80.73 16 16 0 000-28.52 80.14 80.14 0 01-55.78-80.73V64a16 16 0 0116-16h64a16 16 0 0116 16v224a32 32 0 01-32 32H64a32 32 0 01-32-32z"
+        }
+      ]
+    },
+    
+    {
+      "id": 3,
+      "name": "Purnima Raghuvanshi",
+      "role": "MD& CEO",
+      "bio": "Born in District Narmdapuram and grew up in Madhya Pradesh. She says she was an introvert, which made her a keen observer of human behavior. She was eager to start an agribased business. So she funded this new startup and is putting efforts to make this one of the best agriculture companies in India. Her keen interest is in flower farming, especially orchids, lilies, gerberas, and roses. Protected cultivation and polyhouse farming of red and yellow capsicum are areas of interest.",
+        "imageSrc": "./img/testimonial-1.jpg",
+      "socialLinks": [
+        {
+          "url": "https://twitter.com/johndoe",
+          "iconClass": "fa-twitter",
+          "icon": "twitter",
+          "iconPath": "M464 128c0 75.08-61.92 136-136 136h-200c-75.08 0-136-61.92-136-136v-200c0-75.08 61.92-136 136-136h200c75.08 0 136 61.92 136 136v200z"
+        },
+        {
+          "url": "https://github.com/johndoe",
+          "iconClass": "fa-github",
+          "icon": "github",
+          "iconPath": "M352 32a32 32 0 00-32 32v224a32 32 0 0032 32h84.75l-117.37 117.36a32 32 0 0022.62 54.62h182.5a32 32 0 0022.62-54.62L295.25 320H380a32 32 0 0032-32V64a32 32 0 00-32-32zM143.17 226.34a16 16 0 01-22.63 0l-45.25-45.25a16 16 0 010-22.63l90.51-90.5a16 16 0 0122.63 0l45.25 45.25a16 16 0 010 22.63zM48 354.74a80.14 80.14 0 0155.78-80.73 16 16 0 000-28.52 80.14 80.14 0 01-55.78-80.73V64a16 16 0 0116-16h64a16 16 0 0116 16v224a32 32 0 01-32 32H64a32 32 0 01-32-32z"
+        }
+      ]
+    }
+
+   
+  ]
+  

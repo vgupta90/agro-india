@@ -12,7 +12,7 @@ export default function Features() {
           <h1 className="display-5 text-white">Why Choose Us!!!</h1>
         </div>
         <div className="row g-5">
-          <div className="col-lg-3">
+          <div className="col-lg-3 d-none d-md-block">
             <div className="text-white mb-5">
               <div
                 className="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
@@ -21,9 +21,6 @@ export default function Features() {
                 <i className="fa fa-seedling fs-4 text-white"></i>
               </div>
               <h4 className="text-white">100% Organic</h4>
-              {/* <p className="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita
-              </p> */}
             </div>
             <div className="text-white">
               <div
@@ -33,9 +30,6 @@ export default function Features() {
                 <i className="fa fa-award fs-4 text-white"></i>
               </div>
               <h4 className="text-white">Award Winning</h4>
-              {/* <p className="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita
-              </p> */}
             </div>
           </div>
           <div className="col-lg-6">
@@ -51,7 +45,7 @@ export default function Features() {
               <img className="img-fluid" src="img/feature.png" alt="" />
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 d-none d-md-block">
             <div className="text-white mb-5">
               <div
                 className="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
@@ -60,9 +54,6 @@ export default function Features() {
                 <i className="fa fa-tractor fs-4 text-white"></i>
               </div>
               <h4 className="text-white">Modern Farming</h4>
-              {/* <p className="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita
-              </p> */}
             </div>
             <div className="text-white">
               <div
@@ -71,10 +62,7 @@ export default function Features() {
               >
                 <i className="fa fa-phone-alt fs-4 text-white"></i>
               </div>
-              <h4 className="text-white">24/7 Support</h4>
-              {/* <p className="mb-0">
-                Labore justo vero ipsum sit clita erat lorem magna clita
-              </p> */}
+              <h4 className="text-white">Support</h4>
             </div>
           </div>
         </div>

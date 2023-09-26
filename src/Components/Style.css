@@ -113,10 +113,80 @@
   height: 3rem;
 }
 
+.bg-hero1 {
+  background: url(../img/Product-transformed.jpeg) top right no-repeat;
+  background-size: cover;
+}
+.bg-hero2 {
+  background: url(../img/contact-transformed.jpeg) top right no-repeat;
+  background-size: cover; /* Set width to 100% and height to auto */
+
+}
 .bg-hero {
   background: url(../img/carousel-1.jpg) top right no-repeat;
   background-size: cover;
 }
+
+
+
+/* Remove horizontal space between Navbar and Contact component */
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.container-fluid.p-6 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+ 
+}
+
+.container-fluid.bg-primary.py-5.bg-hero2.mb-5 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+
+
+/* Add responsive margin for Contact component */
+@media (max-width: 991px) {
+  .container-fluid.bg-primary.py-5.bg-hero2.mb-5 {
+    margin-top: 20px !important;
+  }
+}
+
+/* Style the 'Contact Us' section */
+.container-fluid.py-5 {
+  padding-top: 30px !important; /* Add padding for spacing */
+}
+
+/* Adjust padding for smaller screens */
+@media (max-width: 767px) {
+  .container-fluid.py-5 {
+    padding-top: 10px !important; /* Reduce padding for smaller screens */
+  }
+}
+
+/* Style the Contact form and details */
+.bg-primary.h-100 {
+  min-height: 0 !important; /* Remove min-height to allow content to push the section height */
+}
+
+/* Style the Contact form */
+form {
+  padding: 20px !important; /* Add padding for spacing */
+}
+
+/* Style the Contact details */
+.bg-secondary.h-100 {
+  min-height: 50 !important; /* Remove min-height to allow content to push the section height */
+}
+
+
+
+
 
 @media (min-width: 991.98px) {
   .banner {
@@ -2711,6 +2781,72 @@ textarea.form-control.is-valid {
   background-position: right 0.75rem center, center right 2.25rem;
   background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
+
+body{margin-top:20px;}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.pt-5 {
+    padding-top: 3rem !important;
+}
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+.border-0 {
+    border: 0 !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+.card {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.member-profile {
+    top: -50px;
+    left: 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.position-absolute {
+    position: absolute !important;
+}
+
+.member-profile img {
+    width: 100px;
+    height: 100px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+
 .was-validated .form-select:valid:focus,
 .form-select.is-valid:focus {
   border-color: #198754;
