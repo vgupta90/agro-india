@@ -58,6 +58,22 @@ export default function Navbar() {
                 Product
               </Link>
               <Link
+                to="/export"
+                className={`nav-item nav-link ${location.pathname === '/export' ? 'active' : ''}`}
+                onClick={closeMobileMenu}
+              >
+                Export
+              </Link>
+              <Link
+                to="/ecommerce"
+                className={`nav-item nav-link ${location.pathname === '/ecommerce' ? 'active' : ''}`}
+                onClick={closeMobileMenu}
+              >
+                Ecommerce
+              </Link>
+
+
+              <Link
                 to="/contact"
                 className={`nav-item nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
                 onClick={closeMobileMenu}
@@ -65,16 +81,12 @@ export default function Navbar() {
                 Contact
               </Link>
             </div>
-
-            {/* Add responsive CSS to prevent overlapping on small screens */}
             <div className="col-lg-3">
               <div className="d-flex align-items-center justify-content-end">
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://twitter.com/SiddhvidhyaLtd"><i className="fab fa-twitter"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61551712237903"><i className="fab fa-facebook-f"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://pin.it/4E2LGsI"><i className="fab fa-pinterest"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.instagram.com/siddhvidhyaagro"><i className="fab fa-instagram"></i></a>
-              
-                
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.linkedin.com/in/siddhvidhya-agro-india-pvt-ltd-547702294"><i className="fab fa-linkedin-in"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.youtube.com/@SiddhvidhyaAgroIndiaPvtLtd"><i className="fab fa-youtube"></i></a>
            

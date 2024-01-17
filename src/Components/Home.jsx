@@ -14,6 +14,9 @@ export default function Home() {
     <>
       <Carousel />
       <Banner />
+
+      {/* <VisitorCounter/> */}
+
       <AboutUs />
       <Features />
     </>

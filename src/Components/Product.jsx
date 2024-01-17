@@ -15,7 +15,7 @@ export default function Product() {
     <div className="container py-5">
       <div className="row justify-content-center justify-content-lg-start">
         <div className="col-lg-8 text-center text-lg-start">
-          <h1 className="display-1 text-white mb-md-4">Our Products</h1>
+        <h1 className="display-1 text-white" style={{  textShadow: '2px 2px 4px rgba(0, 0, 0, 2.9)', marginBottom: '1.5rem' }}>Our Products</h1>
           <Link to="/" className="btn btn-primary py-md-3 px-md-5 me-3">
             Home
           </Link>

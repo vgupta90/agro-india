@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4630c00.css",
-    "main.js": "/static/js/main.9139a50b.js",
+    "main.css": "/static/css/main.6759071d.css",
+    "main.js": "/static/js/main.8ab8a53f.js",
     "static/js/787.c94cf8a6.chunk.js": "/static/js/787.c94cf8a6.chunk.js",
     "static/media/Product-transformed.jpeg": "/static/media/Product-transformed.f116394f80478d4ae480.jpeg",
+    "static/media/expo-transformed.jpeg": "/static/media/expo-transformed.b358706e31ad22f4aac6.jpeg",
     "static/media/testimonial.jpg": "/static/media/testimonial.b75714e7be2ff8119432.jpg",
     "static/media/contact-transformed.jpeg": "/static/media/contact-transformed.33438fbc46a4f9d96ce6.jpeg",
     "static/media/footer.png": "/static/media/footer.6b5bf20305e58b2c8797.png",
@@ -13,12 +14,12 @@
     "static/media/bg-product-2.png": "/static/media/bg-product-2.b4c9a5b9e5ecababaf98.png",
     "static/media/fruit.png": "/static/media/fruit.b4c9a5b9e5ecababaf98.png",
     "index.html": "/index.html",
-    "main.c4630c00.css.map": "/static/css/main.c4630c00.css.map",
-    "main.9139a50b.js.map": "/static/js/main.9139a50b.js.map",
+    "main.6759071d.css.map": "/static/css/main.6759071d.css.map",
+    "main.8ab8a53f.js.map": "/static/js/main.8ab8a53f.js.map",
     "787.c94cf8a6.chunk.js.map": "/static/js/787.c94cf8a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4630c00.css",
-    "static/js/main.9139a50b.js"
+    "static/css/main.6759071d.css",
+    "static/js/main.8ab8a53f.js"
   ]
 }

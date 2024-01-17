@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const Carousel = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -16,7 +15,7 @@ const Carousel = () => {
       caption: 'Papaya: Your Path to Healthy Living',
     },
     {
-      imageSrc: './img/mushroomFarm.jpeg',
+      imageSrc: './img/fruit1.jpeg',
       title: 'Organic Mushroom',
       caption: 'Organic Mushroom For Better Health',
     },
@@ -25,6 +24,21 @@ const Carousel = () => {
       title: 'Saffron',
       caption: 'Saffron: Spice for a Healthy Life',
     },
+    {
+      imageSrc: './img/Export-transformed.jpeg',
+      title: 'Quality Exports',
+      caption: 'Enriching Lives Worldwide',
+    },
+    {
+      imageSrc: './img/vege_export-transformed.jpeg',
+      title: 'Vegetables',
+      caption: 'Our Vegetables, Your Health',
+    },
+    {
+      imageSrc: './img/Grains-transformed.jpeg',
+      title: 'Grains Export',
+      caption: 'Exporting Health Worldwide',
+    }
   ];
 
   const handlePrevSlide = () => {
@@ -71,11 +85,12 @@ const Carousel = () => {
               />
               <div className="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
                 <div className="text-start p-4" style={{ maxWidth: '800px' }}>
-                  <h4 className="text-white">{slide.title}</h4>
+                  <h4 className="text-white" style={{  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.9)' }}>{slide.title}</h4>
                   <h4
                     className={`display-1 text-white mb-md-4 ${
                       window.innerWidth < 768 ? 'small-screen-caption' : ''
                     }`}
+                    style={{  textShadow: '2px 2px 4px rgba(0, 0, 0, 2.9)' }}
                   >
                     {slide.caption}
                   </h4>

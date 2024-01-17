@@ -114,7 +114,7 @@
 }
 
 .bg-hero1 {
-  background: url(../img/Product-transformed.jpeg) top right no-repeat;
+  background: url(../img/ecommerce-transformed.jpeg) top right no-repeat;
   background-size: cover;
 }
 .bg-hero2 {
@@ -124,6 +124,10 @@
 }
 .bg-hero {
   background: url(../img/carousel-1.jpg) top right no-repeat;
+  background-size: cover;
+}
+.bg-hero3 {
+  background: url(../img/expo-transformed.jpeg) top right no-repeat;
   background-size: cover;
 }
 
@@ -318,6 +322,10 @@ form {
 }
 .about-main{
 	padding: 100px 80px;
+}
+
+.about-main2{
+	padding: 10px 100px;
 }
 
 .testimonial-carousel .owl-nav {
@@ -10506,6 +10514,8 @@ fieldset:disabled .btn {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 }
+
+
 
 
 

@@ -119,9 +119,16 @@ export default function Footer() {
       <Link to="/product" className="text-white mb-2">
         <i className="bi bi-arrow-right text-white me-2"></i>Our Products
       </Link>
+      <Link to="/export" className="text-white mb-2">
+        <i className="bi bi-arrow-right text-white me-2"></i>Export
+      </Link>
+      <Link to="/ecommerce" className="text-white mb-2">
+        <i className="bi bi-arrow-right text-white me-2"></i>Ecommerce
+      </Link>
       <Link to="/contact" className="text-white mb-2">
         <i className="bi bi-arrow-right text-white me-2"></i>Contact Us
       </Link>
+    
     </div>
   </div>
 </div>
@@ -138,9 +145,9 @@ export default function Footer() {
             <a className="text-secondary fw-bold" href="">
               Siddhvidhya Agro India Pvt Ltd
             </a>
-            . All Rights Reserved. Designed by{" "}
+            . All Rights Reserved. Developed by{" "}
             <a className="text-secondary fw-bold" href="">
-              Cloud Analogy
+              Vishal Gupta
             </a>
           </p>
         </div>

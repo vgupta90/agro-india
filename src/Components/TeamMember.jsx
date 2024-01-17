@@ -2,7 +2,7 @@ import React from 'react';
 
 function TeamMember(props) {
   return (
-    <div className="col-12 col-md-6 col-lg-4">
+    <div className="col-12 col-md-6 col-lg-6">
       <div className="card border-0 shadow-lg pt-5 my-5 position-relative">
         <div className="card-body p-4">
           <div className="member-profile position-absolute w-100 text-center">
