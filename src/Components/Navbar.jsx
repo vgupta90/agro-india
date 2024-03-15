@@ -87,7 +87,7 @@ export default function Navbar() {
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61551712237903"><i className="fab fa-facebook-f"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://pin.it/4E2LGsI"><i className="fab fa-pinterest"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.instagram.com/siddhvidhyaagro"><i className="fab fa-instagram"></i></a>
-                <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.linkedin.com/in/siddhvidhya-agro-india-pvt-ltd-547702294"><i className="fab fa-linkedin-in"></i></a>
+                <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.linkedin.com/company/100549242/admin/feed/posts/"><i className="fab fa-linkedin-in"></i></a>
                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="https://www.youtube.com/@SiddhvidhyaAgroIndiaPvtLtd"><i className="fab fa-youtube"></i></a>
            
               </div>

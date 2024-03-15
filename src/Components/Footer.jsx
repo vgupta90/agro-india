@@ -13,9 +13,9 @@ export default function Footer() {
                   <h4 className="text-white mb-4">Corporate Office</h4>
                   <div className="d-flex mb-2">
                     <i className="bi bi-geo-alt text-white me-2"></i>
-                    <p className="text-white mb-0">
+                    <span className="text-white mb-0">
                       20 Madan Colony, Sadar Bazar, Narmdapuram (MP), 461001
-                    </p>
+                    </span>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-envelope-open text-white me-2"></i>
@@ -23,7 +23,7 @@ export default function Footer() {
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-telephone text-white me-2"></i>
-                    <p className="text-white mb-0">+919827378478</p>
+                    <p className="text-white mb-0">+919958188688</p>
                   </div>
                   <div className="d-flex mt-4">
                     <a
@@ -52,7 +52,7 @@ export default function Footer() {
                     </a>
                     <a
                       className="btn btn-secondary btn-square rounded-circle me-2"
-                      href="https://www.linkedin.com/in/siddhvidhya-agro-india-pvt-ltd-547702294"
+                      href="https://www.linkedin.com/company/100549242/admin/feed/posts/"
                     >
                       <i className="fab fa-linkedin-in"></i>
                     </a>
@@ -70,10 +70,10 @@ export default function Footer() {
                   <h4 className="text-white mb-4">Registered Office</h4>
                   <div className="d-flex mb-2">
                     <i className="bi bi-geo-alt text-white me-2"></i>
-                    <p className="text-white mb-0">
+                    <span className="text-white mb-0">
                       801/8F, Unitech Horizon, Sector Pi I & II, Greater Noida, 
                       201310
-                    </p>
+                    </span>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-envelope-open text-white me-2"></i>
@@ -88,10 +88,10 @@ export default function Footer() {
                   <h4 className="text-white mb-4">Site Office</h4>
                   <div className="d-flex mb-2">
                     <i className="bi bi-geo-alt text-white me-2"></i>
-                    <p className="text-white mb-0">
+                    <span className="text-white mb-0">
                       Gram : Biora Post : Powarkheda District: Narmdapuram
                       (MP), 461110
-                    </p>
+                    </span>
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-envelope-open text-white me-2"></i>
@@ -99,7 +99,7 @@ export default function Footer() {
                   </div>
                   <div className="d-flex mb-2">
                     <i className="bi bi-telephone text-white me-2"></i>
-                    <p className="text-white mb-0">+919827378478 </p>
+                    <p className="text-white mb-0">+919958188688 </p>
                   </div>
                 </div>
               </div>
@@ -140,16 +140,16 @@ export default function Footer() {
       </div>
       <div className="container-fluid bg-dark text-white py-4">
         <div className="container text-center">
-          <p className="mb-0">
+          <span className="mb-0">
             &copy;{" "}
             <a className="text-secondary fw-bold" href="">
               Siddhvidhya Agro India Pvt Ltd
             </a>
             . All Rights Reserved. Developed by{" "}
             <a className="text-secondary fw-bold" href="">
-              Vishal Gupta
+              Vishal Gupta (Cloud Analogy)
             </a>
-          </p>
+          </span>
         </div>
       </div>
     </>

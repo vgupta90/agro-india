@@ -6,9 +6,7 @@ import Facts from "./Facts";
 import Carousel from "./Carousel";
 
 export default function Home() {
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
-  }, []);
+
 
   return (
     <>

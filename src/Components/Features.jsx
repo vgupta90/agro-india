@@ -1,6 +1,20 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 export default function Features() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await axios.get('https://deveinvoice.invopay.com.au:8443/invopay/getCount');
+  setCount(response.data.data);
+  console.log(response.data.data);
+
+}
+    
+    fetchData();
+
+  
+  }, []);
   return (
     <div className="container-fluid bg-primary feature py-5 pb-lg-0 my-5">
       <div className="container py-5 pb-lg-0">
@@ -10,6 +24,7 @@ export default function Features() {
         >
           <h6 className="text-uppercase text-secondary">Features</h6>
           <h1 className="display-5 text-white">Why Choose Us!!!</h1>
+          <h5 className=" text-white">Visitor's count: {count}</h5>
         </div>
         <div className="row g-5">
           <div className="col-lg-3 d-none d-md-block">
@@ -29,7 +44,7 @@ export default function Features() {
               >
                 <i className="fa fa-award fs-4 text-white"></i>
               </div>
-              <h4 className="text-white">Award Winning</h4>
+              <h4 className="text-white">Awarded</h4>
             </div>
           </div>
           <div className="col-lg-6">

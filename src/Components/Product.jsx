@@ -27,7 +27,7 @@ export default function Product() {
     </div>
   </div>
 
-  <ProductCarousel />
+  <ProductCarousel  />
 </div>
 
   );

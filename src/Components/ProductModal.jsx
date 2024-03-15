@@ -2,14 +2,19 @@ import React from 'react';
 import Modal from 'react-modal';
 
 const customModalStyles  = {
+
   content: {
+     display: 'flex',
+     flexDirection: 'column', // or 'row' based on your layout needs
+    justifyContent: 'flex-end', // or 'space-between', 'flex-start', 'flex-end', etc.
+    alignItems: 'flex-start', // or 'flex-start', 'flex-end', etc. based on your layout needs
     top: '50%',
     left: '50%',
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
     marginTop:'2%',
-    transform: 'translate(-50%, -50%)',
+    transform: 'translate(-50%, -40%)',
     maxWidth: '80%', // Set the maximum width for the modal content
     maxHeight: '80%', // Set the maximum height for the modal content
     overflow: 'auto', // Enable scrolling if content overflows the modal
@@ -20,35 +25,6 @@ Modal.setAppElement('#root'); // Specify the root element to handle accessibilit
 
 const ProductModal = ({ isOpen, closeModal, product }) => {
   return (
-    // <Modal
-    //   isOpen={isOpen}
-    //   onRequestClose={closeModal}
-    //   style={customStyles}
-    //   contentLabel="Product Modal"
-    // >
-    //     <div
-    //     style={{
-    //       backgroundImage: `url(${product.imgSrc})`, // Set the background image
-    //       // height: '100%', // Set a height to cover the entire modal
-    //       display: 'flex',
-    //       height: '400px', // Set desired height for the modal
-    //       width: '600px',
-    //       // backgroundPosition: 'center',
-    //       // flexDirection: 'column',
-    //        justifyContent: 'space-between', // Adjust content positioning
-    //       // padding: '20px', // Add padding for content
-    //        position: 'relative',
-    //     }}
-    //     >
-    //     <h4  >{product.title}</h4>
-    //      </div>
-      
-    //   <p className="mb-4">{product.description}</p>
-     
-    //   <p className="btn btn-primary py-md-2 px-md-4 me-3" onClick={closeModal}>Close</p>
-     
-     
-    // </Modal>
 
     <Modal
     isOpen={isOpen}
@@ -78,7 +54,7 @@ const ProductModal = ({ isOpen, closeModal, product }) => {
         <h4>{product.title}</h4>
         </div>
         </div>
-        <p className="mb-4">{product.description}</p>
+        <p className="mb-4" style={{ textAlign: 'justify', textJustify: 'inter-word', textAlignLast: 'left' }}>{product.description}</p>
         <button className="btn btn-primary py-md-2 px-md-4 me-3" onClick={closeModal}>
           Close
         </button>
